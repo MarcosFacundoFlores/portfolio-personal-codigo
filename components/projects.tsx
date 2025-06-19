@@ -22,11 +22,11 @@ export default function Projects() {
       liveLink: "https://maskeynihal.github.io/flappy-bird/",
     },
     {
-      title: "Pursue - Job Handling with AWS",
+      title: "Backend Optimización CVRPTW",
       description:
-        "A JavaScript package for handling job processing using AWS services like SQS, Lambda, and Step Functions.",
-      tags: ["Node.js", "AWS", "SQS", "Lambda", "npm package"],
-      codeLink: "https://github.com/maskeynihal/pursue",
+        "Backend en Express para trabajo final de 'Lógica y Optimización'. Comunicamos el Frontend con la API de IBM CPLEX para resolver el Problema de Ruteo de Vehículos con Capacidades y Ventanas de Tiempo",
+      tags: ["Node.js", "Express", "API", "IBM", "CPLEX", "JSON"],
+      codeLink: "https://github.com/MarcosFacundoFlores/CVRPTW-backend",
       liveLink: null,
     },
     {
@@ -43,9 +43,9 @@ export default function Projects() {
       <div className="container px-4 md:px-6 mx-auto">
         <div className="space-y-12">
           <div className="space-y-4 text-center">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Projects</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Proyectos</h2>
             <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              A selection of my personal and professional projects
+              Selección de mis proyectos personales y académicos
             </p>
           </div>
 
