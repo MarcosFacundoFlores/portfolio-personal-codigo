@@ -25,7 +25,7 @@ export default function Projects() {
       title: "Backend Optimización CVRPTW",
       description:
         "Backend en Express para trabajo final de 'Lógica y Optimización'. Comunicamos el Frontend con la API de IBM CPLEX para resolver el Problema de Ruteo de Vehículos con Capacidades y Ventanas de Tiempo",
-      tags: ["Node.js", "Express", "API", "IBM", "CPLEX", "JSON"],
+      tags: ["Node.js", "Express", "IBM CPLEX", "API", "JSON"],
       codeLink: "https://github.com/MarcosFacundoFlores/CVRPTW-backend",
       liveLink: null,
     },
