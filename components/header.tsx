@@ -13,13 +13,12 @@ import Link from "next/link"
 
 // Updated nav items - removed Skills as it's now part of Experience
 const navItems = [
-  { name: "Home", href: "#home" },
-  { name: "About", href: "#about" },
-  { name: "Experience", href: "#experience" },
-  { name: "Projects", href: "#projects" },
-  { name: "Education", href: "#education" },
-  { name: "Blog", href: "#blog" },
-  { name: "Contact Me", href: "#contact" },
+  { name: "Inicio", href: "#home" },
+  { name: "Acerca de", href: "#about" },
+  { name: "Experiencia", href: "#experience" },
+  { name: "Proyectos", href: "#projects" },
+  { name: "Educación", href: "#education" },
+  { name: "Contacto", href: "#contact" },
 ]
 
 export default function Header() {

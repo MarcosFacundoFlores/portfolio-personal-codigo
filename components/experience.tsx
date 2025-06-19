@@ -5,78 +5,65 @@ import Skills from "./skills-content"
 export default function Experience() {
   const experiences = [
     {
-      title: "Lead Engineer",
-      company: "Leapfrog Technology / Trayt Health",
+      title: "Desarrollador Frontend",
+      company: "Makers S.A / Valkimia Cuyo",
       period: "Jan 2025 - Present",
-      location: "Kathmandu, Nepal",
+      location: "San Juan, Argentina",
       achievements: [
-        "Leading the engineering team in developing innovative healthcare solutions for Trayt Health",
-        "Architecting scalable and secure systems for handling sensitive healthcare data",
-        "Implementing advanced AWS infrastructure for high availability and compliance",
-        "Mentoring junior engineers and establishing best practices for code quality and security",
-        "Collaborating with product and design teams to deliver exceptional user experiences",
+        "Participación clave en el desarrollo frontend de una solución financiera para Global Processing, utilizando React y buenas prácticas de desarrollo.",
+        "Subcontratado por Valkimia para formar parte de un equipo remoto con base en Santa Fe, colaborando estrechamente en un entorno ágil y distribuido.",
+        "Reconocido por la prolijidad del código, el uso responsable y estratégico de Git, y la efectiva comunicación en el trabajo colaborativo.",
+        "Contribución activa durante todas las etapas del proyecto, desde el diseño hasta la entrega final, garantizando calidad y cumplimiento de plazos.",
+        "Proyecto finalizado exitosamente tras un año de desarrollo, cumpliendo con los estándares técnicos y las expectativas del cliente.",
       ],
     },
     {
-      title: "Senior Software Engineer",
-      company: "Leapfrog Technology / Trayt Health",
+      title: "Desarrollador Frontend",
+      company: "Makers S.A / Valkimia Cuyo",
       period: "July 2023 - Jan 2025",
-      location: "Kathmandu, Nepal",
+      location: "San Juan, Argentina",
       achievements: [
-        "Coordinated development efforts with remote teams across the US, Australia, and Nepal to deliver complex healthcare solutions for Trayt Health",
-        "Reduced the frontend bundle size by 20% through advanced optimization techniques",
-        "Optimized backend API performance, achieving over 200% faster response times",
-        "Leveraged AWS services (SQS, EventBridge, Lambda, Step Functions) to automate critical tasks",
-        "Mentored and coached team members, accelerating onboarding and enhancing team productivity",
+        "Integración al equipo de Valkimia para el desarrollo de un sistema de gestión de procesos industriales en Angular, destinado a la empresa metalúrgica Ternium.",
+        "Participación inicial motivada por la satisfacción del equipo con el proyecto anterior, lo que generó interés en continuar colaborando en nuevos desafíos.",
+        "Aunque mi participación fue acotada por compromisos académicos, el desarrollo avanzó sin contratiempos y se mantuvo la calidad del código y el uso riguroso de Git.",
+        "Se reafirmaron las fortalezas reconocidas previamente: trabajo en equipo, prolijidad en la implementación y responsabilidad en entornos colaborativos.",
+        "Aporté en las primeras etapas del desarrollo, contribuyendo a una base sólida que permitió al proyecto continuar con estabilidad y eficiencia.",
       ],
     },
     {
-      title: "Software Engineer",
-      company: "Leapfrog Technology",
-      period: "Sep 2021 - July 2023",
-      location: "Kathmandu, Nepal",
+      title: "IT Lead",
+      company: "Rectorado Universidad Nacional de San Juan",
+      period: "Abril 2024 - Presente",
+      location: "San Juan, Argentina",
       achievements: [
-        "Led and managed a diverse software development team comprising over 15 members",
-        "Designed and implemented solutions that consistently exceeded performance benchmarks",
-        "Streamlined project planning by working closely with product owners",
-        "Orchestrated the successful release of major application versions",
-        "Emerged as the primary point of contact for both project stakeholders and management",
+        "Lidero el área de IT en el rectorado de la Universidad Nacional de San Juan, coordinando un equipo reducido encargado del mantenimiento y correcto funcionamiento de los equipos informáticos del edificio.",
+        "Encargado de la gestión y priorización de tickets de servicio, con respuestas rápidas y eficaces que garantizan la continuidad operativa de las distintas áreas administrativas.",
+        "Reconocido por mi capacidad de organización, atención al detalle y enfoque proactivo frente a incidentes técnicos.",
+        "Implementación de rutinas de control y mantenimiento preventivo para asegurar la estabilidad de la infraestructura tecnológica.",
+        "Supervisión directa de intervenciones técnicas, asegurando tiempos de respuesta óptimos y comunicación efectiva con el personal universitario.",
       ],
     },
     {
-      title: "Associate Software Engineer",
-      company: "Leapfrog Technology",
-      period: "Sep 2020 - Sep 2021",
-      location: "Kathmandu, Nepal",
+      title: "DevOps",
+      company: "Rectorado Universidad Nacional de San Juan",
+      period: "Abril 2025 - Presente",
+      location: "San Juan, Argentina",
       achievements: [
-        "Collaborated with senior developers and product owners to deliver high-quality applications",
-        "Employed a meticulous approach to debugging code and identifying root causes of issues",
-        "Contributed to system improvement efforts by conducting thorough system analysis",
-        "Played a pivotal role in enhancing system performance through strategic optimization",
-        "Innovatively designed and developed a browser extension, streamlining workflow processes",
+        "Integrante del equipo DevOps del Centro de Cómputos del Rectorado de la Universidad Nacional de San Juan, colaborando en el despliegue, mantenimiento y monitoreo de los sistemas SIU, una suite de aplicaciones fundamentales utilizadas por toda la comunidad universitaria, desde estudiantes hasta autoridades.",
+        "Trabajo con herramientas como Git para control de versiones, Docker para la creación y gestión de contenedores, y Kubernetes para la orquestación y escalabilidad de los servicios.",
+        "Mi rol requiere una coordinación constante con otros equipos técnicos, así como una comprensión profunda de los entornos universitarios y sus necesidades específicas en materia tecnológica.",
       ],
     },
-    {
-      title: "Software Engineer Intern",
-      company: "Leapfrog Technology",
-      period: "Jun 2020 - Sep 2020",
-      location: "Kathmandu, Nepal",
+        {
+      title: "Otros - Ámbito Universitario",
+      company: "Facultad de Ciencias Exactas Físicas y Naturales - UNSJ",
+      period: "Enero 2018 - Presente",
+      location: "San Juan, Argentina",
       achievements: [
-        "Acquired proficiency in JavaScript and harnessed the browser canvas API",
-        "Recreated Pac-man game with vanilla JS while integrating various path-finding algorithms",
-        "Successfully delved into backend development with Node.js and honed frontend skills with React.js",
-      ],
-    },
-    {
-      title: "Web Application Developer",
-      company: "Technorio Inc.",
-      period: "Jan 2019 - Jun 2020",
-      location: "Kathmandu, Nepal",
-      achievements: [
-        "Delivered projects across diverse industries, including insurance management, video streaming, and ticket management",
-        "Collaborated closely with the business development team, offering engineering insights",
-        "Utilized GitHub actions to automate deployment pipelines",
-        "Applied server deployment expertise to successfully launch a range of web applications",
+        "A lo largo de mi trayectoria en el ámbito universitario he formado parte de diversos equipos de desarrollo, participando en proyectos de distinta escala y complejidad, tanto académicos como institucionales.",
+        "Esta experiencia incluye desde la implementación de rutinas procedurales en C hasta el desarrollo de aplicaciones web completas (SPAs) utilizando tecnologías modernas como Vue.js, Express, Axios, Google Cloud y Docker.",
+        "He participado además en proyectos orientados a la optimización computacional e inteligencia artificial, aplicando conceptos teóricos a la resolución de problemas concretos mediante algoritmos eficientes y modelos inteligentes.",
+        "Estos proyectos, muchas veces interdisciplinarios y de difícil clasificación por su variedad, consolidaron mis habilidades tanto en frontend como backend, así como mi criterio técnico para elegir herramientas y enfoques adecuados en función de cada desafío."
       ],
     },
   ]
@@ -86,9 +73,9 @@ export default function Experience() {
       <div className="container px-4 md:px-6 mx-auto">
         <div className="space-y-12">
           <div className="space-y-4 text-center">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Experience</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Experiencia</h2>
             <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              My professional journey and key accomplishments
+              Mi experiencia profesional e hitos clave
             </p>
           </div>
 

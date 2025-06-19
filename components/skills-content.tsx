@@ -5,23 +5,23 @@ export default function SkillsContent() {
   const skillCategories = [
     {
       category: "Frontend",
-      skills: ["JavaScript", "TypeScript", "React.js", "HTML/CSS", "Tailwind CSS"],
+      skills: ["JavaScript", "TypeScript", "React.js", "Vue.js", "Angular.js", "SASS", "LESS", "Tailwind CSS", "Bootstrap"],
     },
     {
       category: "Backend",
-      skills: ["Node.js", "PHP", "Laravel", "Express.js", "RESTful APIs"],
+      skills: ["Node.js", "PHP", "Express.js", "RESTful APIs", "Drizzle"],
     },
     {
-      category: "Database",
-      skills: ["MySQL", "PostgreSQL", "DynamoDB", "MongoDB", "Redis"],
+      category: "Bases de datos",
+      skills: ["MySQL", "PostgreSQL"],
     },
     {
-      category: "Cloud & DevOps",
-      skills: ["AWS", "GitHub Actions", "Travis-CI", "Docker", "CI/CD"],
+      category: "Cloud y DevOps",
+      skills: ["Google Cloud", "GitHub", "GitLab", "Docker", "Kubernetes"],
     },
     {
-      category: "Tools & Methodologies",
-      skills: ["Git", "Agile", "Scrum", "JIRA", "Figma"],
+      category: "Herramientas y metodologías",
+      skills: ["Git", "Agile", "Notion", "JIRA", "Figma", "Postman"],
     },
   ]
 
@@ -30,7 +30,7 @@ export default function SkillsContent() {
       <div className="space-y-4 text-center">
         <h3 className="text-2xl font-bold tracking-tighter sm:text-3xl">Skills</h3>
         <p className="mx-auto max-w-[700px] text-muted-foreground md:text-lg/relaxed lg:text-base/relaxed">
-          My expertise and technical proficiencies
+          Proeficiencias Técnicas
         </p>
       </div>
 
