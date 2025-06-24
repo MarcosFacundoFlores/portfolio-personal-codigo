@@ -7,9 +7,9 @@ export default function Education() {
       <div className="container px-4 md:px-6 mx-auto">
         <div className="space-y-12">
           <div className="space-y-4 text-center">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Education</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Educación</h2>
             <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              My academic background and qualifications
+              Trasfondo académico y cualificaciones.
             </p>
           </div>
 
