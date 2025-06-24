@@ -47,7 +47,7 @@ export const metadata: Metadata = {
       },
     ],
   },
-  /* Check later */
+  /* Check later 
   twitter: {
     card: "summary_large_image",
     title: "Marcos Flores | Téc. Universitario en Programación",
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
       "Portfolio of Nihal Maskey, a Senior Software Engineer specializing in JavaScript, TypeScript, React.js, Node.js, Laravel, and AWS.",
     creator: "@maskeynihal",
     images: ["/favicon.png"],
-  },
+  }, */
   robots: {
     index: true,
     follow: true,

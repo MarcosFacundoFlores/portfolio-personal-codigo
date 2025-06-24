@@ -30,7 +30,7 @@ export default function Hero() {
               <Link href="#contact">Contacto</Link>
             </Button>
             <Button asChild variant="outline" size="lg" className="rounded-full">
-              <a href="https://resume.nihal.com.np/nihal_maskey.pdf" target="_blank" rel="noopener noreferrer">
+              <a href="https://limewire.com/d/FzTbG#RTJBf4FzP8" target="_blank" rel="noopener noreferrer">
                 <Download className="mr-2 h-4 w-4" /> Descargar CV
               </a>
             </Button>

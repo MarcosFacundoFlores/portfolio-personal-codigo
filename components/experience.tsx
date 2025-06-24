@@ -5,9 +5,9 @@ import Skills from "./skills-content"
 export default function Experience() {
   const experiences = [
     {
-      title: "Desarrollador Frontend",
+      title: "Desarrollador Frontend React",
       company: "Makers S.A / Valkimia Cuyo",
-      period: "Jan 2025 - Present",
+      period: "Oct 2021 - Mar 2023",
       location: "San Juan, Argentina",
       achievements: [
         "Participación clave en el desarrollo frontend de una solución financiera para Global Processing, utilizando React y buenas prácticas de desarrollo.",
@@ -18,9 +18,9 @@ export default function Experience() {
       ],
     },
     {
-      title: "Desarrollador Frontend",
+      title: "Desarrollador Frontend Angular",
       company: "Makers S.A / Valkimia Cuyo",
-      period: "July 2023 - Jan 2025",
+      period: "Oct 2021 - Jan 2023",
       location: "San Juan, Argentina",
       achievements: [
         "Integración al equipo de Valkimia para el desarrollo de un sistema de gestión de procesos industriales en Angular, destinado a la empresa metalúrgica Ternium.",

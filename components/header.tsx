@@ -99,7 +99,7 @@ export default function Header() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            <span className="text-2xl font-bold gradient-text">NM</span>
+            <span className="text-2xl font-bold gradient-text">MF</span>
           </motion.div>
         </Link>
 

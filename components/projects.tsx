@@ -2,7 +2,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { ExternalLink, Github } from "lucide-react"
 import Link from "next/link"
-import OpenSource from "./open-source"
+
 
 export default function Projects() {
   const projects = [
@@ -82,10 +82,6 @@ export default function Projects() {
               </div>
             ))}
           </div>
-          {/* Include Open Source section directly under Projects
-          <div className="mt-20">
-            <OpenSource />
-          </div> */}
         </div>
       </div>
     </section>
