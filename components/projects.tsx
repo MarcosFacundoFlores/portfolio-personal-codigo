@@ -7,12 +7,12 @@ import Link from "next/link"
 export default function Projects() {
   const projects = [
     {
-      title: "Pacman",
+      title: "Zodiac SPA",
       description:
-        "A recreation of the classic Pacman game with vanilla JavaScript, implementing various path-finding algorithms for ghost movement.",
-      tags: ["JavaScript", "Canvas API", "Path-finding Algorithms"],
-      codeLink: "https://github.com/maskeynihal/pacman",
-      liveLink: "https://maskeynihal.github.io/pacman/",
+        "Sitio para consultar el horóscopo diario",
+      tags: ["JavaScript", "Vite + Vue", "API"],
+      codeLink: "https://github.com/MarcosFacundoFlores/Zodiac-SPA",
+      liveLink: "https://zodiac-spa.vercel.app/",
     },
     {
       title: "Flappy Bird",
