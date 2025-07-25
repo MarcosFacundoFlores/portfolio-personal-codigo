@@ -15,9 +15,9 @@ export default function Projects() {
       liveLink: "https://zodiac-spa.vercel.app/",
     },
     {
-      title: "Flappy Bird",
-      description: "A clone of the popular Flappy Bird game built with vanilla JavaScript and HTML5 Canvas.",
-      tags: ["JavaScript", "Canvas API", "Game Development"],
+      title: "Insta Lyrics",
+      description: "WebApp para obtener las letras de canciones",
+      tags: ["Typescript", "Vite + Vue", "API"],
       codeLink: "https://github.com/maskeynihal/flappy-bird",
       liveLink: "https://maskeynihal.github.io/flappy-bird/",
     },
@@ -27,13 +27,6 @@ export default function Projects() {
         "Backend en Express para trabajo final de 'Lógica y Optimización'. Comunicamos el Frontend con la API de IBM CPLEX para resolver el Problema de Ruteo de Vehículos con Capacidades y Ventanas de Tiempo",
       tags: ["Node.js", "Express", "IBM CPLEX", "API", "JSON"],
       codeLink: "https://github.com/MarcosFacundoFlores/CVRPTW-backend",
-      liveLink: null,
-    },
-    {
-      title: "Mailer",
-      description: "A JavaScript package to prepare and send emails using AWS SES, with templating support.",
-      tags: ["Node.js", "AWS", "SES", "Email Templates", "npm package"],
-      codeLink: "https://github.com/maskeynihal/mailer",
       liveLink: null,
     },
   ]

@@ -23,14 +23,14 @@ export default function Hero() {
             </p>
           </div>
           <div className="max-w-[700px] text-muted-foreground">
-            <p className="text-lg">Desarrollo de sistemas escalabales, eficientes y seguros</p>
+            <p className="text-lg">Desarrollo de sistemas escalables, eficientes y seguros</p>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 mt-6">
             <Button asChild size="lg" className="rounded-full">
               <Link href="#contact">Contacto</Link>
             </Button>
             <Button asChild variant="outline" size="lg" className="rounded-full">
-              <a href="https://limewire.com/d/FzTbG#RTJBf4FzP8" target="_blank" rel="noopener noreferrer">
+              <a href="https://drive.google.com/file/d/1fEa4iBEfClieeaZ-rOPUGrg9xUHU0sR_/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                 <Download className="mr-2 h-4 w-4" /> Descargar CV
               </a>
             </Button>
