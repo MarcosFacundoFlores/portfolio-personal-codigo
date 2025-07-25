@@ -18,8 +18,8 @@ export default function Projects() {
       title: "Insta Lyrics",
       description: "WebApp para obtener las letras de canciones",
       tags: ["Typescript", "Vite + Vue", "API"],
-      codeLink: "https://github.com/maskeynihal/flappy-bird",
-      liveLink: "https://maskeynihal.github.io/flappy-bird/",
+      codeLink: "https://github.com/MarcosFacundoFlores/Insta-Lyrics",
+      liveLink: "https://insta-lyrics.vercel.app/",
     },
     {
       title: "Backend Optimización CVRPTW",
