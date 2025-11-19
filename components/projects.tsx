@@ -1,18 +1,32 @@
-import { Card, CardContent } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { ExternalLink, Github } from "lucide-react"
-import Link from "next/link"
-
+import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { ExternalLink, Github } from "lucide-react";
+import Link from "next/link";
 
 export default function Projects() {
   const projects = [
     {
       title: "Zodiac SPA",
-      description:
-        "Sitio para consultar el horóscopo diario",
+      description: "Sitio para consultar el horóscopo diario",
       tags: ["JavaScript", "Vite + Vue", "API"],
       codeLink: "https://github.com/MarcosFacundoFlores/Zodiac-SPA",
-      liveLink: "https://zodiac-spa.vercel.app/",
+      liveLink: "https://zodiaco-demo.sanjuanweb.us.kg/",
+    },
+    {
+      title: "EyeCatcher de Negocios",
+      description: "SPA de demo para atraer clientes que necesiten desarrollo.",
+      tags: ["Astro", "Typescript"],
+      codeLink: "https://github.com/MarcosFacundoFlores/presentation",
+      liveLink: "https://presentacion.sanjuanweb.us.kg/",
+    },
+    {
+      title: "Bot de Twitter",
+      description:
+        "Bot de Twitter hecho en Python con Flask, OAuth2.0 y Redis, hosteado en Railway. El bot postea cada 2 horas una cita filosófica extraida y traducida desde una API gratuita",
+      tags: ["Python", "Flask", "OAuth 2.0", "Redis"],
+      codeLink:
+        "https://github.com/MarcosFacundoFlores/BotFilosofia-Twitter-Flask",
+      liveLink: "https://x.com/BotFilosofia",
     },
     {
       title: "Insta Lyrics",
@@ -29,14 +43,16 @@ export default function Projects() {
       codeLink: "https://github.com/MarcosFacundoFlores/CVRPTW-backend",
       liveLink: null,
     },
-  ]
+  ];
 
   return (
     <section id="projects" className="py-20">
       <div className="container px-4 md:px-6 mx-auto">
         <div className="space-y-12">
           <div className="space-y-4 text-center">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Proyectos</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+              Proyectos
+            </h2>
             <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               Selección de mis proyectos personales y académicos
             </p>
@@ -48,7 +64,9 @@ export default function Projects() {
                 <Card className="overflow-hidden h-full flex flex-col">
                   <CardContent className="project-content flex-1 flex flex-col p-5">
                     <h3 className="text-lg font-bold">{project.title}</h3>
-                    <p className="text-sm text-muted-foreground mt-2 flex-1">{project.description}</p>
+                    <p className="text-sm text-muted-foreground mt-2 flex-1">
+                      {project.description}
+                    </p>
                     <div className="project-tags mt-3">
                       {project.tags.slice(0, 3).map((tag, i) => (
                         <span key={i} className="project-tag">
@@ -58,13 +76,21 @@ export default function Projects() {
                     </div>
                     <div className="project-links mt-4">
                       <Button size="sm" variant="outline" asChild>
-                        <Link href={project.codeLink} target="_blank" rel="noopener noreferrer">
+                        <Link
+                          href={project.codeLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           <Github className="mr-1 h-4 w-4" /> Code
                         </Link>
                       </Button>
                       {project.liveLink && (
                         <Button size="sm" variant="outline" asChild>
-                          <Link href={project.liveLink} target="_blank" rel="noopener noreferrer">
+                          <Link
+                            href={project.liveLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
                             <ExternalLink className="mr-1 h-4 w-4" /> Live
                           </Link>
                         </Button>
@@ -78,5 +104,5 @@ export default function Projects() {
         </div>
       </div>
     </section>
-  )
+  );
 }
